@@ -1,0 +1,26 @@
+/* comment */
+
+h1 {
+    color: #54DC32;
+    background-color: rgba(137, 37, 211, 0.7);
+}
+
+p {
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: underline overline
+}
+
+.nav-item {
+    
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link {
+
+}
