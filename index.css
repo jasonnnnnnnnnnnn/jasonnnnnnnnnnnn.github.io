@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: Algerian;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.sidebar {
+    grid-column: 1/2;
+    grid-row: 1/11;
+    background-color: red;
+}
+
+.container {
+    grid-column: 2/8;
+    grid-row: 1/11;
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Cool-hd-iphone-backgrounds-Free-PIC-WPD009964.jpg");
+    background-size: cover;
+}
+
+.footer {
+    grid-column: 1/8;
+    grid-row: 11/12;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-family: Castellar;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px
+}
+
+ul {
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
+    width: 100%;
+    padding: 35px;
+    transition: all 1s;
+}
+
+.list-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-link {
+    text-decoration: none;
+}
